@@ -1,0 +1,28 @@
+# Core ML and Data Science Libraries
+torch>=2.1.0
+numpy>=1.22.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Hugging Face Transformers and Related Libraries
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.23.0
+peft>=0.6.0
+bitsandbytes>=0.41.0
+
+# Additional Required Libraries
+typing-extensions>=4.5.0
+protobuf>=4.23.0
+
+# Optional but Recommended
+wandb>=0.15.0  # For experiment tracking
+tqdm>=4.65.0   # Progress bars
+
+# CUDA Support (optional, uncomment if using GPU)
+# conda install -c nvidia cuda-toolkit
+
+# Note: For Llama models, you'll need to:
+# 1. Accept terms on Hugging Face for meta-llama models
+# 2. Have a valid Hugging Face token with access to Llama models
